@@ -108,3 +108,11 @@ The **ConvNeXtKAN** model serves as the backbone for the patch-based pipeline:
 ![Classification Report](images/patch_class_report.png)
 
 ![Confusion Matrix](images/patch_cm.png)
+
+
+
+### Acknowledgments
+
+https://www.researchgate.net/publication/381125655_Kolmogorov-Arnold_Network_for_Satellite_Image_Classification_in_Remote_Sensing
+https://www.researchgate.net/publication/319463676_EuroSAT_A_Novel_Dataset_and_Deep_Learning_Benchmark_for_Land_Use_and_Land_Cover_Classification
+http://weegee.vision.ucmerced.edu/datasets/landuse.html
