@@ -17,6 +17,8 @@ To address these challenges, this project explores **Kolmogorov-Arnold Networks 
 ## Kolmogorov-Arnold Representation Theorem
 The Kolmogorov-Arnold theorem states that any multivariate continuous function can be represented as a finite composition of continuous functions of a single variable. 
 
+![KAN](images/kan.png)
+
 **Role in KAN:**
 - KAN implements this theoretical foundation using **learnable activation functions** modeled via **B-splines**.
 - B-spline functions are parameterized and trained during the learning process, allowing the network to adaptively learn complex functional relationships.
@@ -52,8 +54,19 @@ The project integrates KAN with ConvNeXt and other pre-trained models (ResNet101
   - **70%** Training
   - **30%** Testing
 
+![EuroSAT Dataset](images/EuroSAT-dataset.png)
 
 ---
+
+## Results 
+
+![Accuracy](images/accuracy_chart.png)
+
+### Evaluation metrics for KCN
+
+![Classification Report](images/class_report.png)
+
+![Confusion Matrix](images/cm.png)
 
 
 
